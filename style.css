@@ -100,5 +100,11 @@ h1 {
         padding-left: 5px;
         padding-right: 5px;
     }
+ .Row > .Cell  {
+      border-top: none;
+  }
+    .Cell ~ .Cell {
+      border-left: none;
+  }
     .incorrect { color: red;}
     .correct {color:green}
